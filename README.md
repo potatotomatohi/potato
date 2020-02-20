@@ -1,3 +1,9 @@
+@@ -0,0 +1 @@
+Junk
+ 1  Space Clikcer/High Scores.txt 
+@@ -0,0 +1 @@
+
+ 191  Space Clikcer/Main.cpp 
 @@ -1,9 +1,13 @@
 #include <iostream>
 #include <fstream>
@@ -237,3 +243,31 @@ VOID KeyEventProc(KEY_EVENT_RECORD ker)
 }
 
 VOID MouseEventProc(MOUSE_EVENT_RECORD mer)
+ 4  Space Clikcer/Space Clikcer.vcxproj 
+@@ -112,6 +112,10 @@
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="High Scores.txt" />
+    <Text Include="test.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+ 8  Space Clikcer/Space Clikcer.vcxproj.filters 
+@@ -19,4 +19,12 @@
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="High Scores.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project> 
+ 1  Space Clikcer/test.txt 
+@@ -0,0 +1 @@
